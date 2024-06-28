@@ -11,7 +11,37 @@
 .nav__list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.nav__list {
+
+.nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  position: absolute;
+  left: 13px;
+  bottom: 10px;
+}
+
+.nav__ellipsis__noti {
+  background-color: tomato;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 22px;
+  bottom: 18px;
 }
